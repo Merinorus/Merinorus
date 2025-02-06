@@ -17,15 +17,16 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/antoine-merino/).
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/antoine-merino/). Please add a note so I don't mistake you for a bot or a random recruiter.
 
 ### Skills and Experience
 
-- **Domains**: software design and architecture, backend development, testing, CI/CD
+- **Domains**: Software design and architecture, development, testing, CI/CD
 - **Languages**: Python, C++, C, Java, HTML/CSS
-- **Databases**: MariaDB, MySQL, AWS RDS, PostgreSQL, MongoDB, AWS DocumentDB, DB optimization (indexing, normalization, deadlock mitigation)
+- **Databases**: MariaDB, MySQL, AWS RDS, PostgreSQL, SQL DB optimization (indexing, normalization, deadlock mitigation), MongoDB, AWS DocumentDB, Redis
+- **Other**: Memcached
 - **DevOps/Infra**: Docker, Ansible, Ubuntu/Debian server, Kibana, Grafana
-- **Platforms**: Windows, MacOS, Linux, Android, Embedded systems & Microcontrollers
+- **Platforms**: Windows, macOS, Linux, Android, Embedded systems & Microcontrollers
 - **Other**: electronics, photovoltaics, car mechanics
 
 
@@ -40,8 +41,12 @@ Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/antoine-m
 - [Zint](https://github.com/zint/zint): Barcode generation software. Added support for generating DX Film Edge barcodes. [[Ticket]](https://sourceforge.net/p/zint/tickets/327/)
 
 ##### Python
+- [Limits](https://github.com/alisaifee/limits): Rate limiting library used by famous frameworks ([Flask](https://github.com/alisaifee/flask-limiter), [FastAPI / Starlette](https://github.com/laurentS/slowapi)...):
+  - Implemented the [sliding window counter](https://blog.cloudflare.com/counting-things-a-lot-of-different-things/) algorithm, a memory-efficient approximation of the moving window algorithm. Supported backends: RAM, Redis and Memcached. The author added support for MongoDB. [[Ticket]](https://github.com/alisaifee/limits/discussions/245)
+  - Improved Memcached backend's performance.
+  - Fixed a race condition issue in RAM backend.
 - [Flask-Pydantic](https://github.com/bauerji/flask-pydantic): [Flask](https://github.com/pallets/flask) (web framework) extension to integrate with [Pydantic](https://github.com/pydantic/pydantic) (data validation library). Added backward compatibility with Pydantic V1. [[Ticket]](https://github.com/bauerji/flask-pydantic/issues/90)
-- [FastAPI-MVC](https://github.com/fastapi-mvc/fastapi-mvc): [FastAPI](https://github.com/tiangolo/fastapi) (web framework) project generator. Fixed installation failing with Python versions 3.10 and above. [[Ticket]](https://github.com/fastapi-mvc/fastapi-mvc/issues/60)
+- [FastAPI-MVC](https://github.com/fastapi-mvc/fastapi-mvc): [FastAPI](https://github.com/tiangolo/fastapi) (web framework) project generator. Fixed installation failure with Python versions 3.10 and above. [[Ticket]](https://github.com/fastapi-mvc/fastapi-mvc/issues/60)
 - [Freqtrade](https://github.com/freqtrade/freqtrade): crypto trading bot. Added weekly and monthly reports on Telegram. [[Ticket]](https://github.com/freqtrade/freqtrade/issues/5527)
 
 #### Issues raised
