@@ -41,6 +41,12 @@ Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/antoine-m
 - [Zint](https://github.com/zint/zint): Barcode generation software. Added support for generating DX Film Edge barcodes. [[Ticket]](https://sourceforge.net/p/zint/tickets/327/)
 
 ##### Python
+- [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx): A [Django](https://github.com/django/django)-based document management system that scans, performs OCR, organizes, and enables full-text search of documents. Added several performance improvements:
+  - Faster classifier training and predictions [[PR]](https://github.com/paperless-ngx/paperless-ngx/pull/10363)
+  - Faster date parsing [[PR]](https://github.com/paperless-ngx/paperless-ngx/pull/10181)
+  - Database read-caching [[PR]](https://github.com/paperless-ngx/paperless-ngx/pull/9784)
+  - Database connection pooling [[PR]](https://github.com/paperless-ngx/paperless-ngx/pull/10354)
+
 - [Limits](https://github.com/alisaifee/limits): Rate limiting library used by famous frameworks ([Flask](https://github.com/alisaifee/flask-limiter), [FastAPI / Starlette](https://github.com/laurentS/slowapi)...):
   - Implemented the [sliding window counter](https://blog.cloudflare.com/counting-things-a-lot-of-different-things/) algorithm, a memory-efficient approximation of the moving window algorithm. Supported backends: RAM, Redis and Memcached. The author added support for MongoDB. [[Ticket]](https://github.com/alisaifee/limits/discussions/245)
   - Improved Memcached backend's performance.
