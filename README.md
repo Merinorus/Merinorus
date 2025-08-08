@@ -63,6 +63,9 @@ Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/antoine-m
 - [pur](https://github.com/alanhamlett/pip-update-requirements): Python package update tool. Asked for a dry mode that can list packages to be upgraded. [[Issue]](https://github.com/alanhamlett/pip-update-requirements/issues/50)
 - [pydantic-i18n](https://github.com/boardpack/pydantic-i18n): Internationalisation for [Pydantic](https://github.com/pydantic/pydantic) error messages. Found an issue with static code typing. [[Issue]](https://github.com/boardpack/pydantic-i18n/issues/74)
 
+#### Current projects
+- [The Big Film Database](https://github.com/merinorus/thebigfilmdatabase-website): a website for exploring [the largest open-source database of 35mm photographic films](https://github.com/dxdatabase/Open-source-film-database).
+
 #### Past projects
 - [Flexible Flight Search](https://github.com/Merinorus/fff): find cheap round-trip flights with more flexible dates than online flight comparators.
 - [eBay announce generator](https://github.com/Merinorus/ebay-announce-generator): personal template for pretty eBay listings.
