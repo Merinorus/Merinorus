@@ -41,7 +41,8 @@ Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/antoine-m
 - [Zint](https://github.com/zint/zint): Barcode generation software. Added support for generating DX Film Edge barcodes. [[Ticket]](https://sourceforge.net/p/zint/tickets/327/)
 
 ##### Python
-- [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx): A [Django](https://github.com/django/django)-based document management system that scans, performs OCR, organizes, and enables full-text search of documents. Added several performance improvements:
+- [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx): A [Django](https://github.com/django/django)-based document management system that scans, performs OCR, organizes, and enables full-text search of documents. Worked mainly on performance improvements ([full list](https://github.com/paperless-ngx/paperless-ngx/pulls?q=is%3Apr+author%3AMerinorus+is%3Amerged+sort%3Aupdated-desc)), including:
+  - Faster page loading by eliminating N+1 queries [[PR]](https://github.com/paperless-ngx/paperless-ngx/pull/10657)
   - Faster classifier training and predictions [[PR]](https://github.com/paperless-ngx/paperless-ngx/pull/10363)
   - Faster date parsing [[PR]](https://github.com/paperless-ngx/paperless-ngx/pull/10181)
   - Database read-caching [[PR]](https://github.com/paperless-ngx/paperless-ngx/pull/9784)
